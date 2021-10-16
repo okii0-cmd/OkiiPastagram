@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52845890271B4253001B2F70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5284588F271B4253001B2F70 /* AppDelegate.swift */; };
+		52845892271B4253001B2F70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52845891271B4253001B2F70 /* SceneDelegate.swift */; };
+		52845894271B4253001B2F70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52845893271B4253001B2F70 /* ViewController.swift */; };
+		52845897271B4253001B2F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52845895271B4253001B2F70 /* Main.storyboard */; };
+		52845899271B4254001B2F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52845898271B4254001B2F70 /* Assets.xcassets */; };
+		5284589C271B4254001B2F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5284589A271B4254001B2F70 /* LaunchScreen.storyboard */; };
+		528458A7271B4254001B2F70 /* OkiiPastagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528458A6271B4254001B2F70 /* OkiiPastagramTests.swift */; };
+		528458B1271B4254001B2F70 /* OkiiPastagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528458B0271B4254001B2F70 /* OkiiPastagramUITests.swift */; };
+		528458B3271B4254001B2F70 /* OkiiPastagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528458B2271B4254001B2F70 /* OkiiPastagramUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		528458A3271B4254001B2F70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52845884271B4253001B2F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5284588B271B4253001B2F70;
+			remoteInfo = OkiiPastagram;
+		};
+		528458AD271B4254001B2F70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52845884271B4253001B2F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5284588B271B4253001B2F70;
+			remoteInfo = OkiiPastagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5284588C271B4253001B2F70 /* OkiiPastagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OkiiPastagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5284588F271B4253001B2F70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52845891271B4253001B2F70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52845893271B4253001B2F70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52845896271B4253001B2F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52845898271B4254001B2F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5284589B271B4254001B2F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5284589D271B4254001B2F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528458A2271B4254001B2F70 /* OkiiPastagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OkiiPastagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528458A6271B4254001B2F70 /* OkiiPastagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkiiPastagramTests.swift; sourceTree = "<group>"; };
+		528458AC271B4254001B2F70 /* OkiiPastagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OkiiPastagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528458B0271B4254001B2F70 /* OkiiPastagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkiiPastagramUITests.swift; sourceTree = "<group>"; };
+		528458B2271B4254001B2F70 /* OkiiPastagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkiiPastagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52845889271B4253001B2F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5284589F271B4254001B2F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528458A9271B4254001B2F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52845883271B4253001B2F70 = {
+			isa = PBXGroup;
+			children = (
+				5284588E271B4253001B2F70 /* OkiiPastagram */,
+				528458A5271B4254001B2F70 /* OkiiPastagramTests */,
+				528458AF271B4254001B2F70 /* OkiiPastagramUITests */,
+				5284588D271B4253001B2F70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5284588D271B4253001B2F70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5284588C271B4253001B2F70 /* OkiiPastagram.app */,
+				528458A2271B4254001B2F70 /* OkiiPastagramTests.xctest */,
+				528458AC271B4254001B2F70 /* OkiiPastagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5284588E271B4253001B2F70 /* OkiiPastagram */ = {
+			isa = PBXGroup;
+			children = (
+				5284588F271B4253001B2F70 /* AppDelegate.swift */,
+				52845891271B4253001B2F70 /* SceneDelegate.swift */,
+				52845893271B4253001B2F70 /* ViewController.swift */,
+				52845895271B4253001B2F70 /* Main.storyboard */,
+				52845898271B4254001B2F70 /* Assets.xcassets */,
+				5284589A271B4254001B2F70 /* LaunchScreen.storyboard */,
+				5284589D271B4254001B2F70 /* Info.plist */,
+			);
+			path = OkiiPastagram;
+			sourceTree = "<group>";
+		};
+		528458A5271B4254001B2F70 /* OkiiPastagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				528458A6271B4254001B2F70 /* OkiiPastagramTests.swift */,
+			);
+			path = OkiiPastagramTests;
+			sourceTree = "<group>";
+		};
+		528458AF271B4254001B2F70 /* OkiiPastagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				528458B0271B4254001B2F70 /* OkiiPastagramUITests.swift */,
+				528458B2271B4254001B2F70 /* OkiiPastagramUITestsLaunchTests.swift */,
+			);
+			path = OkiiPastagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5284588B271B4253001B2F70 /* OkiiPastagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528458B6271B4254001B2F70 /* Build configuration list for PBXNativeTarget "OkiiPastagram" */;
+			buildPhases = (
+				52845888271B4253001B2F70 /* Sources */,
+				52845889271B4253001B2F70 /* Frameworks */,
+				5284588A271B4253001B2F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OkiiPastagram;
+			productName = OkiiPastagram;
+			productReference = 5284588C271B4253001B2F70 /* OkiiPastagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		528458A1271B4254001B2F70 /* OkiiPastagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528458B9271B4254001B2F70 /* Build configuration list for PBXNativeTarget "OkiiPastagramTests" */;
+			buildPhases = (
+				5284589E271B4254001B2F70 /* Sources */,
+				5284589F271B4254001B2F70 /* Frameworks */,
+				528458A0271B4254001B2F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528458A4271B4254001B2F70 /* PBXTargetDependency */,
+			);
+			name = OkiiPastagramTests;
+			productName = OkiiPastagramTests;
+			productReference = 528458A2271B4254001B2F70 /* OkiiPastagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		528458AB271B4254001B2F70 /* OkiiPastagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528458BC271B4254001B2F70 /* Build configuration list for PBXNativeTarget "OkiiPastagramUITests" */;
+			buildPhases = (
+				528458A8271B4254001B2F70 /* Sources */,
+				528458A9271B4254001B2F70 /* Frameworks */,
+				528458AA271B4254001B2F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528458AE271B4254001B2F70 /* PBXTargetDependency */,
+			);
+			name = OkiiPastagramUITests;
+			productName = OkiiPastagramUITests;
+			productReference = 528458AC271B4254001B2F70 /* OkiiPastagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52845884271B4253001B2F70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					5284588B271B4253001B2F70 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					528458A1271B4254001B2F70 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 5284588B271B4253001B2F70;
+					};
+					528458AB271B4254001B2F70 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 5284588B271B4253001B2F70;
+					};
+				};
+			};
+			buildConfigurationList = 52845887271B4253001B2F70 /* Build configuration list for PBXProject "OkiiPastagram" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52845883271B4253001B2F70;
+			productRefGroup = 5284588D271B4253001B2F70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5284588B271B4253001B2F70 /* OkiiPastagram */,
+				528458A1271B4254001B2F70 /* OkiiPastagramTests */,
+				528458AB271B4254001B2F70 /* OkiiPastagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5284588A271B4253001B2F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5284589C271B4254001B2F70 /* LaunchScreen.storyboard in Resources */,
+				52845899271B4254001B2F70 /* Assets.xcassets in Resources */,
+				52845897271B4253001B2F70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528458A0271B4254001B2F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528458AA271B4254001B2F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52845888271B4253001B2F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52845894271B4253001B2F70 /* ViewController.swift in Sources */,
+				52845890271B4253001B2F70 /* AppDelegate.swift in Sources */,
+				52845892271B4253001B2F70 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5284589E271B4254001B2F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528458A7271B4254001B2F70 /* OkiiPastagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528458A8271B4254001B2F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528458B1271B4254001B2F70 /* OkiiPastagramUITests.swift in Sources */,
+				528458B3271B4254001B2F70 /* OkiiPastagramUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		528458A4271B4254001B2F70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5284588B271B4253001B2F70 /* OkiiPastagram */;
+			targetProxy = 528458A3271B4254001B2F70 /* PBXContainerItemProxy */;
+		};
+		528458AE271B4254001B2F70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5284588B271B4253001B2F70 /* OkiiPastagram */;
+			targetProxy = 528458AD271B4254001B2F70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52845895271B4253001B2F70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52845896271B4253001B2F70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5284589A271B4254001B2F70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5284589B271B4254001B2F70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		528458B4271B4254001B2F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		528458B5271B4254001B2F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		528458B7271B4254001B2F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OkiiPastagram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oki.OkiiPastagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		528458B8271B4254001B2F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OkiiPastagram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oki.OkiiPastagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		528458BA271B4254001B2F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oki.OkiiPastagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OkiiPastagram.app/OkiiPastagram";
+			};
+			name = Debug;
+		};
+		528458BB271B4254001B2F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oki.OkiiPastagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OkiiPastagram.app/OkiiPastagram";
+			};
+			name = Release;
+		};
+		528458BD271B4254001B2F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oki.OkiiPastagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OkiiPastagram;
+			};
+			name = Debug;
+		};
+		528458BE271B4254001B2F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oki.OkiiPastagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OkiiPastagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52845887271B4253001B2F70 /* Build configuration list for PBXProject "OkiiPastagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528458B4271B4254001B2F70 /* Debug */,
+				528458B5271B4254001B2F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528458B6271B4254001B2F70 /* Build configuration list for PBXNativeTarget "OkiiPastagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528458B7271B4254001B2F70 /* Debug */,
+				528458B8271B4254001B2F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528458B9271B4254001B2F70 /* Build configuration list for PBXNativeTarget "OkiiPastagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528458BA271B4254001B2F70 /* Debug */,
+				528458BB271B4254001B2F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528458BC271B4254001B2F70 /* Build configuration list for PBXNativeTarget "OkiiPastagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528458BD271B4254001B2F70 /* Debug */,
+				528458BE271B4254001B2F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52845884271B4253001B2F70 /* Project object */;
+}
