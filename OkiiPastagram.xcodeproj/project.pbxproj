@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018E12E17AB0F44AFB0400DE /* Pods_OkiiPastagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F6506926B76B43CB7A47C0 /* Pods_OkiiPastagramTests.framework */; };
+		3E4A7597F928B5C0142C2676 /* Pods_OkiiPastagram_OkiiPastagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BD2528A107369175D81928 /* Pods_OkiiPastagram_OkiiPastagramUITests.framework */; };
+		526407242720C6460037B8DA /* postCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526407232720C6460037B8DA /* postCell.swift */; };
 		52845890271B4253001B2F70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5284588F271B4253001B2F70 /* AppDelegate.swift */; };
 		52845892271B4253001B2F70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52845891271B4253001B2F70 /* SceneDelegate.swift */; };
-		52845894271B4253001B2F70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52845893271B4253001B2F70 /* ViewController.swift */; };
 		52845897271B4253001B2F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52845895271B4253001B2F70 /* Main.storyboard */; };
 		52845899271B4254001B2F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52845898271B4254001B2F70 /* Assets.xcassets */; };
 		5284589C271B4254001B2F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5284589A271B4254001B2F70 /* LaunchScreen.storyboard */; };
 		528458A7271B4254001B2F70 /* OkiiPastagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528458A6271B4254001B2F70 /* OkiiPastagramTests.swift */; };
 		528458B1271B4254001B2F70 /* OkiiPastagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528458B0271B4254001B2F70 /* OkiiPastagramUITests.swift */; };
 		528458B3271B4254001B2F70 /* OkiiPastagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528458B2271B4254001B2F70 /* OkiiPastagramUITestsLaunchTests.swift */; };
+		52C50D63271DC43800BADCB1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C50D62271DC43800BADCB1 /* LoginViewController.swift */; };
+		52C50D65271DC44300BADCB1 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C50D64271DC44300BADCB1 /* FeedViewController.swift */; };
+		52E941ED2720899A003D6242 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E941EC2720899A003D6242 /* CameraViewController.swift */; };
+		7EC242404C5FDE3F6D597532 /* Pods_OkiiPastagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103149E79255FE4CCD41E155 /* Pods_OkiiPastagram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		103149E79255FE4CCD41E155 /* Pods_OkiiPastagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OkiiPastagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		526407232720C6460037B8DA /* postCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postCell.swift; sourceTree = "<group>"; };
 		5284588C271B4253001B2F70 /* OkiiPastagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OkiiPastagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5284588F271B4253001B2F70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52845891271B4253001B2F70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52845893271B4253001B2F70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52845896271B4253001B2F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52845898271B4254001B2F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5284589B271B4254001B2F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,17 @@
 		528458AC271B4254001B2F70 /* OkiiPastagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OkiiPastagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		528458B0271B4254001B2F70 /* OkiiPastagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkiiPastagramUITests.swift; sourceTree = "<group>"; };
 		528458B2271B4254001B2F70 /* OkiiPastagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkiiPastagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52C50D62271DC43800BADCB1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		52C50D64271DC44300BADCB1 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		52E941EC2720899A003D6242 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		64BD2528A107369175D81928 /* Pods_OkiiPastagram_OkiiPastagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OkiiPastagram_OkiiPastagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		754DB1A52CFC6B86A87D1CD3 /* Pods-OkiiPastagram-OkiiPastagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OkiiPastagram-OkiiPastagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-OkiiPastagram-OkiiPastagramUITests/Pods-OkiiPastagram-OkiiPastagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C1E6C0CB21E3F54B45B8760 /* Pods-OkiiPastagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OkiiPastagramTests.release.xcconfig"; path = "Target Support Files/Pods-OkiiPastagramTests/Pods-OkiiPastagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DDDD8FB88FB71DABCC8921B /* Pods-OkiiPastagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OkiiPastagramTests.debug.xcconfig"; path = "Target Support Files/Pods-OkiiPastagramTests/Pods-OkiiPastagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		96F6506926B76B43CB7A47C0 /* Pods_OkiiPastagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OkiiPastagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFFE85B54FE27BDAC25ECD5 /* Pods-OkiiPastagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OkiiPastagram.debug.xcconfig"; path = "Target Support Files/Pods-OkiiPastagram/Pods-OkiiPastagram.debug.xcconfig"; sourceTree = "<group>"; };
+		DB9D71BC5359708F817809A6 /* Pods-OkiiPastagram-OkiiPastagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OkiiPastagram-OkiiPastagramUITests.release.xcconfig"; path = "Target Support Files/Pods-OkiiPastagram-OkiiPastagramUITests/Pods-OkiiPastagram-OkiiPastagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E31E87C3690D27D6C68317CE /* Pods-OkiiPastagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OkiiPastagram.release.xcconfig"; path = "Target Support Files/Pods-OkiiPastagram/Pods-OkiiPastagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC242404C5FDE3F6D597532 /* Pods_OkiiPastagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018E12E17AB0F44AFB0400DE /* Pods_OkiiPastagramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E4A7597F928B5C0142C2676 /* Pods_OkiiPastagram_OkiiPastagramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21F17D338C80B9E86BE5524F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCFFE85B54FE27BDAC25ECD5 /* Pods-OkiiPastagram.debug.xcconfig */,
+				E31E87C3690D27D6C68317CE /* Pods-OkiiPastagram.release.xcconfig */,
+				754DB1A52CFC6B86A87D1CD3 /* Pods-OkiiPastagram-OkiiPastagramUITests.debug.xcconfig */,
+				DB9D71BC5359708F817809A6 /* Pods-OkiiPastagram-OkiiPastagramUITests.release.xcconfig */,
+				8DDDD8FB88FB71DABCC8921B /* Pods-OkiiPastagramTests.debug.xcconfig */,
+				7C1E6C0CB21E3F54B45B8760 /* Pods-OkiiPastagramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		52845883271B4253001B2F70 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +117,8 @@
 				528458A5271B4254001B2F70 /* OkiiPastagramTests */,
 				528458AF271B4254001B2F70 /* OkiiPastagramUITests */,
 				5284588D271B4253001B2F70 /* Products */,
+				21F17D338C80B9E86BE5524F /* Pods */,
+				C2031B469864C7FBCFC2EDC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +137,14 @@
 			children = (
 				5284588F271B4253001B2F70 /* AppDelegate.swift */,
 				52845891271B4253001B2F70 /* SceneDelegate.swift */,
-				52845893271B4253001B2F70 /* ViewController.swift */,
 				52845895271B4253001B2F70 /* Main.storyboard */,
+				52C50D62271DC43800BADCB1 /* LoginViewController.swift */,
+				52C50D64271DC44300BADCB1 /* FeedViewController.swift */,
 				52845898271B4254001B2F70 /* Assets.xcassets */,
 				5284589A271B4254001B2F70 /* LaunchScreen.storyboard */,
 				5284589D271B4254001B2F70 /* Info.plist */,
+				52E941EC2720899A003D6242 /* CameraViewController.swift */,
+				526407232720C6460037B8DA /* postCell.swift */,
 			);
 			path = OkiiPastagram;
 			sourceTree = "<group>";
@@ -127,6 +166,16 @@
 			path = OkiiPastagramUITests;
 			sourceTree = "<group>";
 		};
+		C2031B469864C7FBCFC2EDC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				103149E79255FE4CCD41E155 /* Pods_OkiiPastagram.framework */,
+				64BD2528A107369175D81928 /* Pods_OkiiPastagram_OkiiPastagramUITests.framework */,
+				96F6506926B76B43CB7A47C0 /* Pods_OkiiPastagramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 528458B6271B4254001B2F70 /* Build configuration list for PBXNativeTarget "OkiiPastagram" */;
 			buildPhases = (
+				2B3E7672FFEF70F064283791 /* [CP] Check Pods Manifest.lock */,
 				52845888271B4253001B2F70 /* Sources */,
 				52845889271B4253001B2F70 /* Frameworks */,
 				5284588A271B4253001B2F70 /* Resources */,
+				60E32CA3B5AE4B14E09ECBBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 528458B9271B4254001B2F70 /* Build configuration list for PBXNativeTarget "OkiiPastagramTests" */;
 			buildPhases = (
+				5769063F8B0268A0B42B0C38 /* [CP] Check Pods Manifest.lock */,
 				5284589E271B4254001B2F70 /* Sources */,
 				5284589F271B4254001B2F70 /* Frameworks */,
 				528458A0271B4254001B2F70 /* Resources */,
@@ -169,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 528458BC271B4254001B2F70 /* Build configuration list for PBXNativeTarget "OkiiPastagramUITests" */;
 			buildPhases = (
+				5CEC1541DF5F9DC22CFB48BE /* [CP] Check Pods Manifest.lock */,
 				528458A8271B4254001B2F70 /* Sources */,
 				528458A9271B4254001B2F70 /* Frameworks */,
 				528458AA271B4254001B2F70 /* Resources */,
+				644AE956C0E710A42D7A25FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +307,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B3E7672FFEF70F064283791 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OkiiPastagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5769063F8B0268A0B42B0C38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OkiiPastagramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CEC1541DF5F9DC22CFB48BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OkiiPastagram-OkiiPastagramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E32CA3B5AE4B14E09ECBBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OkiiPastagram/Pods-OkiiPastagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OkiiPastagram/Pods-OkiiPastagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OkiiPastagram/Pods-OkiiPastagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		644AE956C0E710A42D7A25FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OkiiPastagram-OkiiPastagramUITests/Pods-OkiiPastagram-OkiiPastagramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OkiiPastagram-OkiiPastagramUITests/Pods-OkiiPastagram-OkiiPastagramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OkiiPastagram-OkiiPastagramUITests/Pods-OkiiPastagram-OkiiPastagramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52845888271B4253001B2F70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52845894271B4253001B2F70 /* ViewController.swift in Sources */,
+				52C50D63271DC43800BADCB1 /* LoginViewController.swift in Sources */,
+				526407242720C6460037B8DA /* postCell.swift in Sources */,
+				52E941ED2720899A003D6242 /* CameraViewController.swift in Sources */,
 				52845890271B4253001B2F70 /* AppDelegate.swift in Sources */,
+				52C50D65271DC44300BADCB1 /* FeedViewController.swift in Sources */,
 				52845892271B4253001B2F70 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +594,7 @@
 		};
 		528458B7271B4254001B2F70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCFFE85B54FE27BDAC25ECD5 /* Pods-OkiiPastagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +622,7 @@
 		};
 		528458B8271B4254001B2F70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31E87C3690D27D6C68317CE /* Pods-OkiiPastagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +650,7 @@
 		};
 		528458BA271B4254001B2F70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDDD8FB88FB71DABCC8921B /* Pods-OkiiPastagramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +675,7 @@
 		};
 		528458BB271B4254001B2F70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1E6C0CB21E3F54B45B8760 /* Pods-OkiiPastagramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +700,7 @@
 		};
 		528458BD271B4254001B2F70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754DB1A52CFC6B86A87D1CD3 /* Pods-OkiiPastagram-OkiiPastagramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +723,7 @@
 		};
 		528458BE271B4254001B2F70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB9D71BC5359708F817809A6 /* Pods-OkiiPastagram-OkiiPastagramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
